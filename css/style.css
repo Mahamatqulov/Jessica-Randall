@@ -1,0 +1,128 @@
+/* inter-regular - latin */
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v18-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+/* inter-600 - latin */
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/inter-v18-latin-600.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+/* inter-700 - latin */
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v18-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter';
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 38.4rem;
+    margin: 6rem auto;
+}
+
+.content {
+    max-width: 38.4rem;
+    width: 100%;
+    text-align: center;
+    padding: 4rem;
+    border-radius: 1rem;
+    background-color: #1F1F1F;
+}
+
+.content__body {
+    margin-top: 2rem;
+}
+
+.content__title {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: #FFFFFF;
+}
+
+.content__address {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #C4F82A;
+    padding: 5px 0 1rem 0;
+}
+
+.content__type__text {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #FFFFFF;
+    padding: 0 0 1rem 0;
+}
+
+.content__btn {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.6rem;
+    text-align: center;
+}
+
+.content__btn__a {
+    max-width: 30rem;
+    width: 100%;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #333333;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.content__btn__a:hover {
+    background-color: #C4F82A;
+}
+
+@media screen and (max-width:400px) {
+    .container {
+        padding: 0 1rem;
+    }
+}
